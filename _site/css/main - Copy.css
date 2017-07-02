@@ -1,0 +1,281 @@
+@import url("//fonts.googleapis.com/css?family=PT+Sans:400,700,400italic|Montserrat|PT+Mono|PT+Sans+Caption");
+@font-face {
+  font-family: "Munro Small";
+  src: url("/fonts/munrosmall-webfont.eot");
+  src: url("/fonts/munrosmall-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/munrosmall-webfont.woff") format("woff"), url("/fonts/munrosmall-webfont.ttf") format("truetype"), url("/fonts/munrosmall-webfont.svg#munro_smallregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.pad {
+  padding: 12px; }
+
+.pad-l {
+  margin-right: 12px;
+  margin-bottom: 12px; }
+
+.pad-s {
+  margin: 12px 0px; }
+
+.pad-c {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-right: 12px; }
+
+.center {
+  margin: 0 auto;
+  display: block; }
+
+body {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  padding-bottom: 0; }
+
+h1, h2, h3, h4 {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  text-transform: uppercase; }
+
+table {
+  width: 100%; }
+
+dd {
+  padding: 16px;
+  padding-bottom: 32px; }
+
+dt a {
+  display: block;
+  padding: 16px;
+  border-bottom: 1px solid #eeeeee; }
+
+dd {
+  border-bottom: 1px solid #eeeeee; }
+
+.ctc-brand:hover, .ctc-brand:focus {
+  background-color: #eeeeee; }
+.ctc-brand img {
+  max-height: 26px;
+  border: 0px; }
+
+.ctc-main-section {
+  padding-top: 50px;
+  padding-bottom: 36px; }
+
+#camps {
+  background-color: #222222;
+  color: white;
+  margin-top: 64px; }
+
+.ctc-camp-list-item {
+  margin-bottom: 16px;
+  padding: 16px;
+  color: white;
+  background-color: #f07f09; }
+  .ctc-camp-list-item a {
+    color: white; }
+  .ctc-camp-list-item:hover {
+    background-color: white;
+    color: #333333;
+    transition: background-color 0.4s; }
+    .ctc-camp-list-item:hover a {
+      color: #f07f09;
+      background-color: transparent; }
+
+.ctc-camp-header {
+  min-height: 250px;
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  color: white; }
+  .ctc-camp-header:after {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    min-height: 250px;
+    content: " ";
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.5); }
+
+.ctc-camp-banner {
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -2; }
+
+.ctc-camp-registration {
+  margin-top: 20px; }
+
+.ctc-camp-listing-logistics {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  text-transform: uppercase; }
+
+.ctc-camp-listing-date {
+  padding: 8px 8px 8px 0; }
+
+.ctc-camp-listing-detail {
+  padding: 8px; }
+
+.ctc-instructors h4 {
+  margin-top: 0; }
+
+.ctc-contact-list li {
+  width: 100%; }
+  .ctc-contact-list li a {
+    width: 100%;
+    display: table-row; }
+    .ctc-contact-list li a:hover span, .ctc-contact-list li a:hover i, .ctc-contact-list li a:focus span, .ctc-contact-list li a:focus i {
+      color: white; }
+    .ctc-contact-list li a span, .ctc-contact-list li a i {
+      display: table-cell;
+      padding: 8px;
+      vertical-align: middle; }
+
+.fa-3 {
+  font-size: 4em; }
+
+.fb {
+  color: #3b5998; }
+
+.tw {
+  color: #55acee; }
+
+.phone {
+  color: #777777; }
+
+.email {
+  color: #f07f09; }
+
+.ctc-camp-imgs {
+  max-width: 150px;
+  float: left; }
+
+a {
+  color: #f07f09; }
+  a:hover, a:focus {
+    color: white;
+    background-color: #f07f09;
+    transition: background-color 0.4s, color 0.2s;
+    text-decoration: none; }
+
+.navbar-ctc {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  border-bottom: 1px solid #eeeeee;
+  background-color: rgba(255, 255, 255, 0.9); }
+  .navbar-ctc li a:hover {
+    background-color: #eeeeee;
+    color: #f07f09; }
+
+.navbar-toggle-ctc {
+  border: 1px solid #eeeeee; }
+  .navbar-toggle-ctc .icon-bar {
+    background-color: #f07f09; }
+  .navbar-toggle-ctc:hover, .navbar-toggle-ctc:focus {
+    background-color: #eeeeee; }
+
+.jumbotron-ctc {
+  padding: 0;
+  background-color: transparent;
+  color: white;
+  margin-bottom: 0; }
+
+.footer-ctc {
+  margin-top: 48px;
+  background-color: #444444;
+  color: #eeeeee;
+  padding: 16px 0px; }
+
+@media(max-width: 768px) {
+  .navbar-header {
+    border-bottom: 1px solid #eeeeee; }
+
+  .navbar-ctc {
+    background-color: white;
+    border-bottom: 0px solid #eeeeee; } }
+
+.carousel-control {
+  width: 10%; }
+  .carousel-control.right, .carousel-control.left {
+    background-image: none; }
+  .carousel-control:hover {
+    background-color: transparent; }
+  .carousel-control span {
+    position: absolute;
+    top: 50%; }
+  .carousel-control.right {
+    margin-right: 16px; }
+    .carousel-control.right span {
+      right: 0; }
+  .carousel-control.left {
+    margin-left: 16px; }
+    .carousel-control.left span {
+      left: 0; }
+
+.carousel-inner {
+  margin-bottom: 0; }
+  .carousel-inner .carousel-captions {
+    padding: 8px;
+    min-height: 100px;
+    background-color: #f07f09; }
+    .carousel-inner .carousel-captions p, .carousel-inner .carousel-captions .carousel-captions-title {
+      color: white !important;
+      display: block;
+      padding: 0 8px; }
+
+.carousel-captions-title {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  padding: 0;
+  display: block;
+  max-width: 100%;
+  font-size: 1.8em;
+  text-transform: uppercase; }
+
+.carousel-indicators {
+  bottom: -40px; }
+  .carousel-indicators li {
+    border: 1px solid #f07f09; }
+  .carousel-indicators .active {
+    background-color: #f07f09; }
+
+.carousel-bg {
+  width: 100%; }
+
+.carousel-bg-container {
+  position: relative;
+  z-index: -2; }
+
+@media(max-width: 768px) {
+  .carousel-captions-title {
+    font-size: 1.2em; }
+
+  .carousel-inner .carousel-captions {
+    width: 100%; }
+  .carousel-inner p {
+    font-size: 1em; }
+
+  .ctc-main-section {
+    padding-top: 32px; } }
+
+.text-small {
+  font-size: 0.8em; }
+
+.btn-default {
+  background-color: #dddddd;
+  background-image: none; }
+
+.btn-primary {
+  background-color: #f07f09;
+  border: 1px solid #d77208;
+  background-image: none; }
+  .btn-primary:hover, .btn-primary:focus {
+    background-color: #f7932b;
+    border: 1px solid #d77208; }
+
+.inline {
+  display: inline-block;
+  max-width: initial; }

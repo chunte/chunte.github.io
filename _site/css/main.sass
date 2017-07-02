@@ -1,0 +1,385 @@
+// Fonts
+@import url('//fonts.googleapis.com/css?family=PT+Sans:400,700,400italic|Montserrat|PT+Mono|PT+Sans+Caption')
+
+// Constants
+$primary-color: #f07f09
+$white-color: #ffffff
+$space: 16px
+@font-face 
+  font-family: 'Munro Small'
+  src: url('/fonts/munrosmall-webfont.eot')
+  src: url('/fonts/munrosmall-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/munrosmall-webfont.woff') format('woff'),url('/fonts/munrosmall-webfont.ttf') format('truetype'), url('/fonts/munrosmall-webfont.svg#munro_smallregular') format('svg')
+  font-weight: normal
+  font-style: normal
+
+@mixin title-font
+  font-family: 'Munro Small', Helvetica, Arial, sans-serif
+@mixin secondary-font
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif
+@mixin tertiary-font
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif
+
+// Utility classes
+.pad
+  padding: 12px
+
+.pad-b
+  padding-bottom: 12px
+  
+.pad-l 
+  margin-right: 12px
+  margin-bottom: 12px
+
+.pad-s
+  margin: 12px 0px
+
+.pad-c 
+  margin-top: 12px
+  margin-bottom: 12px
+  margin-right: 12px
+
+.center 
+  margin: 0 auto
+  display: block
+// Element
+body
+  @include tertiary-font
+  // font-family: 'PT Sans Caption', Helvetica, Arial, sans-serif
+  padding-bottom: 0
+
+h1, h2, h3, h4
+  @include secondary-font
+  text-transform: uppercase
+
+blockquote
+  @include tertiary-font
+  font-style: italic
+  font-size: 14px
+  color: $primary-color
+  margin: 0.5em 0 0.5em 1em
+  padding: 0 1em 0 1em
+  position: relative
+  border-left: none
+
+blockquote:before
+  color: #ccc
+  content: "\201C"
+  font-size: 5em
+  position: absolute
+  left: 0px
+  top: 0.2em
+  line-height: 0.1em
+  margin-left: -0.3em 
+  
+blockquote:after
+  color: #ccc
+  content: '\201D'
+  font-size: 5em
+  position: absolute
+  right: 10px
+  bottom: -0.2em
+  line-height: 0.1em
+  
+
+  
+table
+  width: 100%
+
+dd
+  padding: $space
+  padding-bottom: $space * 2
+dt
+  a 
+    display: block
+    padding: $space 
+    border-bottom: 1px solid #eee
+
+dd
+  border-bottom: 1px solid #eee
+
+.ctc-brand 
+  &:hover, &:focus
+    background-color: #eee
+  img 
+    max-height: 26px
+    border: 0px
+
+.ctc-main-section
+  padding-top: 20px
+  padding-bottom: 36px
+
+#whylovectc
+  background-color: #999//#2B1100
+  color: white
+  margin-top: $space * 4
+  
+#camps 
+  background-color: #222//#2B1100
+  color: white
+  //margin-top: $space * 4
+
+#regularclasses 
+  background-color: #555//#2B1100
+  color: white
+  //margin-top: $space * 4
+  
+.ctc-camp-list-item
+  margin-bottom: $space
+  padding: $space
+  a 
+    color: $primary-color
+  color: #333 
+  background-color: white 
+  &:hover 
+    background-color: white
+    color: #333
+    transition: background-color 0.4s
+    a
+      color: $primary-color
+      background-color: transparent
+
+.ctc-camp-header
+  min-height: 250px
+  width: 100%
+  display: block 
+  position: relative
+  overflow: hidden
+  color: white
+  &:after 
+    position: absolute
+    display: block 
+    top: 0
+    left: 0
+    bottom: 0
+    right: 0
+    min-height: 250px
+    content: " "
+    z-index: -1
+    background-color: rgba(black, 0.5)
+
+.ctc-camp-banner
+  width: 100%
+  top: 0
+  left: 0
+  bottom: 0
+  right: 0
+  position: absolute
+  z-index: -2
+
+.ctc-camp-header-container
+
+.ctc-camp-registration
+  margin-top: 20px
+
+.ctc-camp-listing-logistics
+  @include secondary-font
+  font-size: 15px
+  text-transform: uppercase
+.ctc-camp-listing-date, 
+  padding: $space/2 $space/2 $space/2 0
+
+.ctc-camp-listing-detail
+  padding: $space/2
+
+.ctc-testimonial
+  font-style: italic
+    
+.ctc-instructors
+  h4 
+    margin-top: 0
+
+.ctc-contact-list
+  li 
+    width: 100%
+    a 
+      width: 100%
+      display: table-row
+      &:hover, &:focus 
+        span, i 
+          color: white
+      span, i
+        display: table-cell
+        padding: $space / 2
+        vertical-align: middle
+
+.fa-3
+  font-size: 4em
+
+.fb 
+  color: #3B5998
+.tw 
+  color: #55ACEE
+.phone 
+  color: #777
+.email
+  color: $primary-color
+
+img 
+.ctc-camp-imgs
+  max-width: 150px
+  float: left
+
+a
+  color: $primary-color
+  &:hover, &:focus
+    color: white
+    background-color: $primary-color
+    transition: background-color 0.4s, color 0.2s
+    text-decoration: none
+  &:visited
+
+// Navigation
+.navbar-ctc
+  @include secondary-font 
+  text-transform: uppercase
+  border-bottom: 1px solid #eee
+  background-color: rgba(white, 0.9)
+  li a:hover 
+    background-color: #eee
+    color: $primary-color
+
+.navbar-toggle-ctc
+  border: 1px solid #eee
+  .icon-bar
+    background-color: $primary-color
+  &:hover, &:focus
+    background-color: #eee
+
+
+.jumbotron-ctc
+  padding: 0
+  background-color: transparent
+  color: white
+  margin-bottom: 0
+
+.footer-ctc
+  margin-top: $space * 3
+  background-color: #444
+  color: #eee
+  padding: $space 0px
+
+@media(max-width: 768px)
+  .navbar-header
+    border-bottom: 1px solid #eee
+  .navbar-ctc
+    background-color: white
+    border-bottom: 0px solid #eee
+
+.carousel-control
+  width: 10%
+  &.right, &.left
+    background-image: none
+  &:hover 
+    background-color: transparent
+  span 
+    position: absolute
+    top: 50%
+  &.right
+    margin-right: $space
+    span
+      right: 0
+  &.left
+    margin-left: $space
+    span
+      left: 0
+
+.carousel-inner
+  margin-bottom: 0
+  .carousel-captions
+    padding: $space/2
+    min-height: 100px
+    background-color: rgba($primary-color, 1)
+    p, .carousel-captions-title
+      color: white !important
+      display: block
+      padding: 0 $space/2
+
+.carousel-captions-title
+  @include secondary-font
+  padding: 0
+  display: block
+  max-width: 100%
+  font-size: 1.8em
+  text-transform: uppercase
+
+.carousel-indicators
+  bottom: -40px
+  li 
+    border: 1px solid $primary-color
+  .active
+    background-color: $primary-color
+
+.carousel-bg
+  width: 100%
+.carousel-bg-container
+  position: relative
+  z-index: -2
+
+
+@media(max-width: 768px)
+  .carousel-captions-title
+    font-size: 1.2em
+    // max-height: 50px
+  .carousel-inner
+    .carousel-captions
+      width: 100%
+    p 
+      font-size: 1em
+  
+  .ctc-main-section
+    padding-top: $space * 2
+
+.text-medium-italics
+  font-size: 0.9em
+  font-style: italic
+.text-small
+  font-size: 0.8em
+
+.btn-default
+  background-color: #ddd
+  background-image: none
+.btn-primary
+  background-color: $primary-color
+  border: 2px solid darken($primary-color, 5%)
+  background-image: none
+  &:hover, &:focus
+    background-color: lighten($primary-color, 10%)
+    border: 2px solid darken($primary-color, 20%)
+.btn-green
+  background-color: #4d4
+  border: 2px solid darken(#4d4, 5%)
+  background-image: none
+  width: 140px
+  font-size: 15px
+  color: white
+  a
+    color: white
+  &:hover, &:focus
+    background-color: lighten(#4d4, 10%)
+    border: 2px solid darken(#4d4, 20%)
+    a
+      color: white
+.btn-green-pale
+  background-color: #9d9
+  border: 2px solid darken(#9d9, 5%)
+  background-image: none
+  width: 140px
+  font-size: 14px
+  font-color: green
+  &:hover, &:focus
+    background-color: lighten(#9d9, 10%)
+    border: 2px solid darken(#9d9, 20%)
+.btn-primary-pale
+  background-color: lighten($primary-color,25%)
+  border: 2px solid darken($primary-color, 5%)
+  background-image: none
+  width: 140px
+  font-size: 15px
+  &:hover, &:focus
+    background-color: lighten($primary-color, 35%)
+    border: 2px solid darken($primary-color, 20%)
+      
+      
+.inline 
+  display: inline-block
+  max-width: initial

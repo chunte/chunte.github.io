@@ -1,0 +1,79 @@
+---
+layout: main
+---
+<section class="ctc-camp-header">
+	<img src="{{page.banner}}" class="ctc-camp-banner"/>
+	<div class="container">
+		<div class="row ctc-camp-header-container">
+			<div class="col-sm-12">
+				<h1>{{ page.title }}</h1>
+				<div class="ctc-camp-listing-logistics">
+					<span class="ctc-camp-listing-date">{{ page.camp_date_onCampPage }}</span>
+					|
+					<span class="ctc-camp-listing-detail">{{page.camp_time}}</span>
+					|
+					<span class="ctc-camp-listing-detail">{{page.location}}</span>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<div class="ctc-camp-registration">
+					{% for url in page.registration_urls %}
+					<a target="_blank" href="{{ url }}" class="btn btn-lg pad-c {% if page.registration_statuses[forloop.index0]%} btn-primary {% else %} btn-default {% endif %}">
+						<div class="ctc-camp-registration-status">
+							<!-- {% if page.registration_statuses[forloop.index0]%}
+							Register Here
+							{% else %}
+							Sold Out
+							{% endif %} -->
+                            {{ page.registration_text[forloop.index0] }}
+						</div>
+						<small class="ctc-camp-registration-date">{{page.registration_dates[forloop.index0] }}</small>
+					</a>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		{{ content }}
+
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="ctc-camp-registration">
+				{% for url in page.registration_urls %}
+				<a target="_blank" href="{{ url }} " class="btn btn-lg pad-c {% if page.registration_statuses[forloop.index0]%} btn-primary {% else %} btn-default {% endif %}">
+					<div class="ctc-camp-registration-status">
+						<!-- {% if page.registration_statuses[forloop.index0]%}
+							Register Here
+						{% else %}
+							Sold Out
+						{% endif %} -->
+                        {{ page.registration_text[forloop.index0] }}
+					</div>
+					<div class="ctc-camp-registration-date">{{page.registration_dates[forloop.index0] }}</div>
+
+				</a>
+				{% endfor %}
+			</div>
+
+			<div class="col-sm-3">
+				{% if page.keep_me_informed_url %}
+				<div class="ctc-camp-registration pull-left">
+					<div>
+						<p>Dates not suitable or out of seats?</p>
+					</div>
+					<a target="_blank" href="{{ page.keep_me_informed_url }} " class="btn btn-default">Keep Me Informed</a>
+				</div>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+</section>
+
+<script type="text/javascript"
+  src="//www.googleadservices.com/pagead/conversion_async.js">
+</script>

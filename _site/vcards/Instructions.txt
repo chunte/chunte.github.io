@@ -1,0 +1,8 @@
+1) Create a vCard using http://vcardmaker.com/ or edit an existing one
+2) Upload to website in the vCard folder
+3) Get the URL and shorten with bit.ly (user name is chunte@gmail.com). Can customise to e.g. to bit.ly/ctc-cte
+4) Make the QR code using http://goqr.me/#t=url. 
+   The URL should have the http:// infront, and also the Error Correction to "M". 
+   Colours are 00A99E for teal and F57E20 for orange
+   
+   

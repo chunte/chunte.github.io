@@ -1,0 +1,277 @@
+---
+layout: main
+---
+<!-- Main -->
+<section class='jumbotron jumbotron-ctc'>
+  <!-- <h1>Creative Tech Camp!</h1>
+-->
+<div class="container">
+  <div id="ctc-main-carousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-background"></div>
+    <!-- Carousel Items -->
+    <ul class="carousel-inner list-unstyled">
+    <!-- Select first image by adding 'active' to class of <li> -->
+      <li class="item active">
+        <a>
+          <div class="carousel-bg-container">
+            <img class="carousel-bg" src="/assets/images/carousel/CTC_Minecraft2017.png">
+            </div>
+        </a>
+      </li>
+      <!-- <li class="item"> -->
+        <!-- <a> -->
+          <!-- <div class="carousel-bg-container"> -->
+            <!-- <img class="carousel-bg" src="/assets/images/carousel/CTC_Scratchit_WebBanner.png"> -->
+            <!-- </div> -->
+        <!-- </a> -->
+      <!-- </li> -->
+      <!-- <li class="item"> -->
+        <!-- <a> -->
+          <!-- <div class="carousel-bg-container"> -->
+            <!-- <img class="carousel-bg" src="/assets/images/carousel/CTC_Oresome_saturday_WebBanner.png"> -->
+            <!-- </div> -->
+         <!-- </a> -->
+      <!-- </li> -->
+     </ul>
+
+    <div class="clearfix"></div>
+
+    <!-- <!-- Carousel Controls --> -->
+    <!-- <a class="left carousel-control" href="#ctc-main-carousel" data-slide="prev"> -->
+      <!-- <span class="fa fa-chevron-left"></span> -->
+    <!-- </a> -->
+    <!-- <a class="right carousel-control" href="#ctc-main-carousel" data-slide="next"> -->
+      <!-- <span class="fa fa-chevron-right"></span> -->
+    <!-- </a> -->
+    <!-- <!-- Carousel Indicators --> -->
+    <!-- <ol class="carousel-indicators"> -->
+      <!-- <li data-target="#ctc-main-carousel" data-slide-to="0" class="active"></li> -->
+      <!-- <li data-target="#ctc-main-carousel" data-slide-to="1"></li>  -->
+      <!-- <li data-target="#ctc-main-carousel" data-slide-to="2"></li>  -->
+    <!-- </ol> -->
+</div>
+</div>
+</section>
+
+<section id="about" class="ctc-main-section">
+    <div class="container">
+        <h2>Here’s why we love Creative Tech <font style="color:#FF0000";>Summer</font> Camps:</h2>
+
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Explore New Interest </h3>
+                <img class="pad-b center img-responsive" src="/assets/images/branding/Img1.png"/>
+                <p>Does your child express their interest in Minecraft, want to be a Youtuber, or a game creator? Let's explore this interest!</p>
+                <p>In addition to learning to code, they're also developing their problem-solving, creative, and social skills. Some of our campers used our camp projects for college appllications and some for their own YouTube channel. </p>
+                <p>Our Tech Camps give students a leg up in the digital savvy world while also being a fun and memorable part of their holidays. Learn new skills this holiday!</p>
+
+            </div>
+            <div class="col-md-4" style="background-color:#EEEEEE;">
+                <h3>It's Fun with a Purpose</h3>
+                <img class="pad-b center img-responsive" src="/assets/images/branding/Img2.png"/>
+                <p>This summer camp, we focus on Minecraft! Everyday, hours are poured into Minecraft. Our camp turn these hours to more than just idle entertainment.</p>
+                <p>We crack the Java code behind the game. Kids learn professional Java programming, writing if-else-statements, loops and Boolean logic to create their Mods. Realworld code has a steep learning curve. We help young coders create things they find relevant and engaging.</p>
+                <p>Our campers' own word: Its fun with a purpose! Once you crack Java code, you can understand the rest! </p>
+
+
+            </div>
+            <div class="col-md-4">
+                <h3>Collaborative Self Learning</h3>
+                <img class="pad-b center img-responsive" src="/assets/images/branding/Img3.png"/>
+                <p>Our Tech Camps are designed with collaborative elements. Even individual projects have social elements as they participate in testing, debugging, and prototyping.</p>
+                <p>Kids can learn almost as much from each other as they do from their instructors. They also constantly test new ideas with Dr Ewe himself!</p>
+                <p>Our facilitators are Ivy League graduates and many of our campers do in touch with them! </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Camps -->
+<section id="camps" class="ctc-main-section">
+<div class="container">
+<h2>Holiday Camps</h2>
+
+<!-- <h3>Details coming soon! </h3>  <h4> Hint: It will be Minecraft Modding with Java & Server Coding Camps! </h4> -->
+<ul class="list-unstyled">
+  
+  {% assign sorted_camps = site.categories.camps | sort: "rank" %}
+  {% for camp in sorted_camps %}
+  {% if camp.show_onMainPage %}
+  <li class="col-md-12 ctc-camp-list-item">
+    <div class="col-md-2">
+      <a href="{% if camp.url_alt_flag %}{{ camp.url_alt }}{% else %}{{ camp.url }}{% endif %}">
+        <img class="img-responsive" src="{{ camp.image }}"/>
+      </a>
+    </div>
+
+    <div class="col-md-8">
+      <h3>
+        <a href="{% if camp.url_alt_flag %}{{ camp.url_alt }}{% else %}{{ camp.url }}{% endif %}">{{ camp.title }} </a>
+      </h3>
+      <div class="ctc-camp-listing-logistics">
+        <!--
+        <span class="ctc-camp-listing-date">{{ camp.camp_date_onMainPage }}</span>
+        | -->
+        <span class="ctc-camp-listing-detail">{{ camp.age_group }}</span>
+        |
+        <span class="ctc-camp-listing-detail">{{ camp.camp_date_onMainPage  }}</span>
+      </div>
+      <hr/>
+      <p>{{camp.excerpt}}</p>
+    </div>
+    
+    <div class="col-md-2">
+        {{camp.main_page_buttons}}
+    </div>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+</div>
+</section>
+
+
+<!-- About -->
+<section id="about" class="ctc-main-section">
+<div class="container">
+<h2>About</h2>
+
+<h3>Creative Tech Camp</h3>
+<div class="row">
+  <div class="col-md-8">
+    <p>
+      Founded in 2013, Creative Tech Camp began with a simple mission to provide fun, exciting and hands-on technology education to young children outside of the typical classroom setting. At our camps, young children will be learning to create video games, mobile apps and build DIY robots. What they actually learn are to design, experiment, take feedback from peers, iterate and innovate upon existing ideas – all 21st century skills for today’s children to become creative, innovative and adaptable adults.
+    </p>
+    <p>
+      At Creative Tech Camps, we empower your child with the skills and environment to build something amazing of their own. Placing the power of technology into your child’s hands, they can create apps, design games and even make robots to do their bidding. We want your child discover their inner interest and be inspired to create with technology, rather than just being a consumer of technology.
+    </p>
+    
+  </div>
+
+  <div class="col-md-4">
+    <img class="pad center img-responsive" src="/assets/images/branding/ctc_ect_tagline.png"/>
+  </div>
+</div>
+
+<!-- <h3>Our Camps</h3> -->
+<!-- <div class="row"> -->
+  <!-- <div class="col-md-8"> -->
+    <!-- <p> -->
+      <!-- During school holiday periods, we provide children age 8 to 14 a weeklong of learning to create with technology. Your child will pick up coding, design and problem solving skills, while getting exposure to the inner workings of their favourite games and the tech world around them. -->
+    <!-- </p> -->
+    <!-- <p> -->
+      <!-- Our camps have 8 students per instructor. This 8:1 ratio promotes personalised instruction for children in an engaging and collaborative setting. We encourage everyone to get up from their seat, to work with their peers and to ask tons of questions -->
+    <!-- </p> -->
+    <!-- <p> -->
+      <!-- Each camp has a blend of hands-on work on computers and un-plugged activities requiring no computers. Fiddling around with code or making things with their hands, young children will soon have an “Aha!” moment and continue to discover how things work on their own. Unplugged activities/sessions will not only lay the groundwork for children’s computational thinking skills, it will help children to appreciate how technology effects the real world around -->
+    <!-- </p> -->
+    <!-- <p> -->
+      <!-- All in all, we want children to leave the camp with relevant 21st century skills. -->
+    <!-- </p> -->
+    <!-- <p> -->
+      <!-- <i>“Instead of simply teaching kids to use existing technologies, we must give them the tools to design and create their own.” -->
+      <!-- <br> -->
+      <!-- – By Mitchel Resnick, Director of the Lifelong Kindergarten Group at MIT Media Lab</i> -->
+    <!-- </p> -->
+  <!-- </div> -->
+
+  <!-- <div class="col-md-4"> -->
+    <!-- <img class="pad img-responsive center" src="/assets/images/branding/ctc-aha.png"/> -->
+  <!-- </div> -->
+<!-- </div> -->
+
+<div class="ctc-instructors" id="instructors">
+  <h3>Instructors</h3>
+  <p>
+    Our instructors are passionate about teaching technology – this is a must. We recruit industry professionals, graduate students, and upper-level undergraduates majoring in technology related fields.
+  </p>
+
+  <div class="col-md-6">
+    <div class="pull-left">
+      <div class="row">
+        <div class="col-sm-3">
+          <img src="/assets/images/instructors/chun_te.jpg" class="img-responsive"> <br/>
+          <a href="https://www.linkedin.com/in/chunte/" target="_blank"><img src="/assets/images/instructors/linkedin-25.png" class="img-responsive"></a> <br/>
+          </div>
+        <div class="col-sm-9">
+          <h4>Dr. Ewe Chun Te</h4>
+          <p> Ever since returning from the UK, Chun Te have harboured the desire to impart his enthusiasm for technology to the future generation. With that, he started CreativeTechCamp as a realisation of this desire.
+
+          <p>Most recently, he and a few like minded people are on a journey to launch Acton Academy KL, a self-driven learner community. </p>
+
+          <p>Chun Te has a Ph.D. in Circuit & Systems at Imperial College London. He has worked in strategy, business and IT consulting firms. He served a range of private and public sector clients in a variety projects requiring strong analytical thinking and project management skills.</p>
+
+          </p>
+        </div>
+
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="pull-left">
+      <div class="row">
+        <div class="col-sm-3">
+          <img src="/assets/images/instructors/audrey_ng.jpg" class="img-responsive"> <br/>
+          <a href="https://www.linkedin.com/in/audreyngwy/" target="_blank"><img src="/assets/images/instructors/linkedin-25.png" class="img-responsive"></a> <br/>
+          
+          </div>
+        <div class="col-sm-9">
+          <h4>Audrey Ng</h4>
+
+          <p>
+            Audrey holds an MEng. in Electrical & Electronic Engineering from Imperial College London. During her studies, she actively engaged in teaching and education activities for summer school kids in London. </p>
+            
+            <p>Audrey’s biggest satisfaction came from imparting the fun and excitement to learning while children explore their curiosity.</p>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+<hr/>
+
+<!-- Contact Us -->
+<section id="contact" class="ctc-main-section">
+<div class="container">
+<h2>Contact Us</h2>
+<p>
+  Check out our
+  <a href="{{site.categories.faq.first.url}}">Frequently Asked Questions</a>
+  section for answers to common questions. Feel free to contact us via the following channels if you have further enquiries.
+</p>
+
+<ul class="list-unstyled ctc-contact-list">
+  <li class="col-sm-12 col-md-6 col-lg-4">
+    <a href="https://www.facebook.com/CreativeTechCamps" target="_blank"> <i class="fa fa-facebook-square fa-3 fb"></i>
+      <span>facebook.com/CreativeTechCamps</span>
+    </a>
+
+  </li>
+<!--   <li class="col-sm-12 col-md-6 col-lg-4">
+    <a href="https://www.twitter.com/BorderlessEducation" target="_blank"> <i class="fa fa-twitter-square fa-3 tw"></i>
+      <span>twitter.com/BorderlessEducation</span>
+    </a>
+  </li> -->
+  <li class="col-sm-12 col-md-6 col-lg-4">
+    <a href="mailto:info@creativetechcamp.com" target="_blank">
+      <i class="fa fa-envelope-square fa-3 email"></i>
+      <span>info@creativetechcamp.com</span>
+    </a>
+  </li>
+  <li class="col-sm-12 col-md-6 col-lg-4">
+    <a>
+      <i class="fa fa-phone-square fa-3 phone"></i>
+      <span>+6019-3354507</span>
+    </a>
+  </li>
+
+</ul>
+{% include subscribe.html %}
+</div>
+</section>

@@ -1,0 +1,104 @@
+{
+    "faq": [
+        {
+            "q": "Why should my child attend Creative Tech Camp?",
+            "a": " <p> Creative Tech Camp offers fun and relevant technology curriculum, taught by well-versed, accomplished instructors. Rather than just consume technology, Creative Tech Camp students participate in a number of technical development disciplines. The camps offers: </p> <ul> <li>an environment where cutting edge technologies are accessible for young people to create</li> <li>a platform to learn coding together with your peers and guidance by a professional</li> <li>small class sizes with a maximum of 8 students per instructor for a personalised learning</li> <li>to develop your computational thinking skills such as problem solving and logical thinking</li> <li>learning using and industry-standard hardware and software</li> </ul> "
+        },
+        {
+            "q": "What will my child learn?",
+            "a": " <p> Depending on the course you register for, they will learn how to create your own game, mobile application or even basic electronics. The main take-away shall be the development of their computational thinking skills, together with the exposure to related technology of the camp they signed up for (e.g. mobile phones, JAVA programming, Scratch, etc.) </p> "
+        },
+        {
+            "q": "Does my child need any prior knowledge of programming to participate?",
+            "a": " No prior programming skills are needed for our beginner Camps "
+        },
+        {
+            "q": "What does my child get to take home with them at the end of the camp?",
+            "a": " Your child will take home new skills and a new portfolio. Each course will have a take home package and a portfolio tailored to the course topic. "
+        },
+        {
+            "q": "When may I drop off my child?",
+            "a": " You may drop off your child 1/4 hour before the lesson begins. For example if the lesson starts at 9:30am, you may drop off your child at 9:15am. "
+        },
+        {
+            "q": "How can I register?",
+            "a": " You can register online by following the respective <a href='/#camps'>camp</a> links, contact us through email (info@creativetechcamp.com) or give a call to Dr. Ewe (+60193354507)."
+        },
+        {
+            "q": "What are the age requirements?",
+            "a": " <p> Please check the respective <a href='/#camps'>Camps</a> for further details </p> "
+        },
+        {
+            "q": "Where is the camp held?",
+            "a": " <p> This June & July 2015 Tech Hero camps will be held at Conference Rooms, Starbucks@TTDI (Taman Tun Dr. Ismail, KL). For direction & map, please click <a href='https://maps.google.com/maps?sll=3.141739,101.629158&sspn=0.0082274,0.0109864&cid=17581631559990219024&q=Starbucks+Coffee&output=classic&dg=ntvo'>here</a>.  </p> <img src='/assets/images/faq/map.png'/> "
+        },
+        {
+            "q": "How long is each camp?",
+            "a": " <p> The 5-day long camps are typically between 2-3 hours a day, from Monday to Friday. Our 1-day long camps are typically 2 hours long.</p> <p> Please check the respective <a href='/#camps'>Camps</a> for further details </p> "
+        },
+        {
+            "q": "How much does the program cost?",
+            "a": " Please check the respective <a href='/#camps'>Camps</a> for further details. "
+        },
+        {
+            "q": "Who are the instructors?",
+            "a": " <p> <a href='/#instructors'>Dr. Ewe Chun Te</a> is the Head of Curricula Development and Training and he will be the lead instructor for all camps. </p> <p> He will be assisted by graduate and undergraduate student instructors to work closely with the students on their project. They will all be trained, in person, by the Creative Tech Camp Team on our curriculum. </p> "
+        },
+        {
+            "q": "Will my student be staring at a computer screen the whole time? What are “unplugged” activities?",
+            "a": " <p> We are a tech camp, but we will not staring at a computer screen the whole time. Balance is the key to every of our tech camps. We take time out for unplugged activities away from computers to further children’s understanding around the technology they are learning. Activities may vary by the course your child is enrolled for. Examples of our unplugged activities include: </p> <ul> <li>Opening up a computer - Appreciate the technology evolution of computers and how it relates to day-to-day human interaction</li> <li>What is the Internet? Learn the different type of methods to deliver messages (fibre, WiFi, or DSL/copper cable) over the Internet</li> <li>What is it like to be a computer? Learn about binary decoding and understand how a computer reads and stores data</li> </ul> "
+        },
+        {
+            "q": "Do you have a waitlist?",
+            "a": " We do have a waitlist. However, since there is no guarantee that space will open up, we recommend registering for an alternate course or alternate dates. "
+        },
+        {
+            "q": "Who should I contact with questions?",
+            "a": " Email us at <a href='mailto:info@creativetechcamp.com'>info@creativetechcamp.com</a>. Alternatively, you can contact us at +6019-3354507 "
+        },
+        {
+            "q": "What if I need to change a course, date or location?",
+            "a": " We know plans change. Good news! We are flexible. You can change your course and date depending on availability. We only ask that you notify us 1 week prior to the start of your camp session. "
+        },
+        {
+            "q": "What is your cancellation policy?",
+            "a": " There is a RM100 non-refundable deposit. Should you need to cancel within the 1-week start date of your program, the entire tuition is non-refundable. However, we have some good news—your tuition is transferable to other family members or friends. We encourage you to call us with any questions at +6019-3354507"
+        },
+        {
+            "q": "What if my child gets sick before or during their week of camp?",
+            "a": " If for some reason you cannot attend camp due to a medical condition, emergency or illness, we will work with you as best we can to move your student to an alternate week. If an alternate week cannot be found and a doctor’s note is provided, we may be able to issue you a partial camp voucher for the week of camp. Requests for a partial camp vouchers based on medical reasons are reviewed on a case-by-case basis.  We encourage you to call us at +6019-3354507 with any questions "
+        },
+        {
+            "q": "Do you provide meals in the camp?",
+            "a": " We do not provide meals. Students are encourage to bring their own water to class. "
+        },
+        {
+            "q": "Do you offer adult programs?",
+            "a": " All of our programs are pre-teens and teen oriented, and offered exclusively for students ages 8-14. "
+        },
+        {
+            "q": "How do I find out if the course I want is still open for enrolment?",
+            "a": " You can view the real-time availability of all of our courses, locations and dates at our <a href='/#camps'>Camp</a> registration pages. "
+        },
+        {
+            "q": "What software do you use?",
+            "a": " We work closely with many different software tools (Scratch®, JAVA®, Eclipse®, App Inventor®, and others) to provide students with the latest software programs available. "
+        },
+        {
+            "q": "Do I need to bring any computer equipment to camp?",
+            "a": " Kids should bring their own laptop, power-supply and mouse. Both Windows and Macs are supported. Please check the respective <a href='/#camps'>Camps</a> for any further requirements. "
+        },
+        {
+            "q": "Do you use Mac or Windows at your programs?",
+            "a": " We use both platforms at our Creative Tech Camps. Students can bring either a Mac or Windows laptop to our camps. "
+        },
+        {
+            "q": "What course should my child take if he/she has never participated in a computer camp?",
+            "a": " Check the courses page for course information, skill levels and prerequisites. We recommend students to register for our Beginner Camps if this is their first time participating in a computer camp. "
+        },
+        {
+            "q": "What if my child already has experience?",
+            "a": " Our camps courses have multiple modules of curriculum and levels. Depending on student’s level and previous programming skills, experienced students will gain a deeper and well-rounded understanding in our Intermediate and Advanced Course. We encourage parents to call us with any questions at +6019-3354507. "
+        }
+    ]
+}
