@@ -1,28 +1,28 @@
 ---
 layout 	: camp
-title 	: "Java Minecraft Senior"
+title 	: "Mini Experience"
 date 	: 2017-07-01 09:00:00
-rank    : 2
-camp_date_onMainPage 	: "August 7-11th (2:00pm-5:30pm)"
-camp_date_onCampPage 	: "August 7-11th (2:00pm-5:30pm)"
-camp_time	: "2.5 hours each day"
+rank    : 4
+camp_date_onMainPage 	: "July 16th, Sunday (2:00pm-3:00pm)"
+camp_date_onCampPage 	: "July 16th(2:00pm-3:00pm)"
+camp_time	: "1 hour"
 url_alt : 
 url_alt_flag : false
-permalink   : /camps/JMC-Senior/
+permalink   : /camps/JMC-miniexp/
 categories  : [2017, summer]
-tags	    : [camp, afternoon, minecraft, 11-15]
-age_group 	: 11 - 15 years old
+tags	    : [camp, afternoon, minecraft, 8-15, miniexp]
+age_group 	: By Invitation Only
 location	: Taman Zaaba, TTDI
-image		: /camps/images/jmc/JMC-Senior.png
-banner		: /camps/images/jmc/JMC-Senior-banner.png
+image		: /camps/images/jmc/JMC-miniexp.png
+banner		: /camps/images/jmc/JMC-miniexp-banner.png
 registration_urls		: ["???"]
-registration_dates		: ["August 7-11th, 2017"]
+registration_dates		: ["July 16th, 2017"]
 registration_statuses	: [true]
 registration_text : ["Register Now"]
 keep_me_informed_url	: "/#contact"
 show_onMainPage : true
-main_page_buttons : <a href="/camps/JMC-Senior" class="btn btn-lg pad-c btn-primary-pale">5-day Camp</a>
-excerpt		: You'll dig into the Java code behind Minecraft and do some hacking! Making some custom blocks, items, and mods that works with Minecraft Forge. <br/>This course will introduce Java programming in an accessible way that is sure to get students learn by doing and make Minecraft their own! 
+
+excerpt		: Want to learn what is Java ? Not sure this is the right camp for you? <br/>Come join us for the Mini Experience for parents & students! Learn more about the course content, hear from the Dr Ewe, and discover what goes on at our camps! <br/> Contact Dr Ewe, (+6019-3354507) for an arrangement
 ---
 
 <div class="row">
@@ -37,23 +37,23 @@ excerpt		: You'll dig into the Java code behind Minecraft and do some hacking! M
 		<th style="vertical-align: top;">Dates & Times</th>
         <td/>
 		<td style='padding:5px 10px 5px 5px'>
-            August 7<sup>th</sup> to 11<sup>th</sup> - 2:00pm to 5:30pm
+            July 16<sup>th</sup> - 2:00pm to 3:00pm
         </td>
 	</tr>
     <tr>
 		<th>Duration</th>
         <td/>
-		<td style='padding:5px 10px 5px 5px'>5-day camp, 3.5 hours each day</td>
+		<td style='padding:5px 10px 5px 5px'>1 hour</td>
 	</tr>
 	<tr>
 		<th>Ages</th>
         <td/>
-		<td style='padding:5px 10px 5px 5px'>11 - 15 years old</td>
+		<td style='padding:5px 10px 5px 5px'>8 - 15 years old</td>
 	</tr>	
 	<tr>
 		<th>Skill Level </th>
         <td/>
-		<td style='padding:5px 10px 5px 5px'>Beginners / Intermediate</td>
+		<td style='padding:5px 10px 5px 5px'>Beginner / Intermediate</td>
 	</tr>
     <tr>
 		<th>Location</th>
@@ -63,7 +63,7 @@ excerpt		: You'll dig into the Java code behind Minecraft and do some hacking! M
     <tr>
 		<th>Price</th>
         <td/>
-		<td style='padding:5px 10px 5px 5px'>RM 1199 <font color="red">(Early bird price: RM999)</font></td>
+		<td style='padding:5px 10px 5px 5px'>Free. By invitation only</font></td>
 	</tr>
 </table>
 
@@ -76,13 +76,10 @@ excerpt		: You'll dig into the Java code behind Minecraft and do some hacking! M
 
 <h3>Session breakdown</h3>
 <ul>
-    <li> Create and setup the main file for Mods</li>
-    <li> Understand the various components in Minecraft Forge and Java</li>
-    <li> Manipulate objects using variables and functions</li>
-    <li> Design and create your own Minecraft items & blocks</li>
-    <li> Create new recipes for crafting and smelting  </li>
-    <li> Delve deeper into object oriented programming to design new Player </li>
-    <li> Create new Minecraft world </li>
+    <li> Create and setup Minecraft Server </li>
+    <li> Learn to draw 2D images using Pixlr and turn them into 3D objects in Minecraft </li>
+    <li> Create and design your own MODs with themes, storylines, objectives and goals </li>
+    <li> Delve deeper into game design & development, modding, and level design. </li>
 </ul>
 
 <h3>Takeaways</h3>

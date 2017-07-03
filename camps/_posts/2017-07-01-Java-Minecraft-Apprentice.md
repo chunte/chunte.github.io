@@ -2,15 +2,15 @@
 layout 	: camp
 title 	: "Java Minecraft Apprentice"
 date 	: 2017-07-01 09:00:00
-rank    : 2
-camp_date_onMainPage 	: "August 14-18th (Whole day)"
-camp_date_onCampPage 	: "August 14-18th (Whole day)"
-camp_time	: "2.5 hours each day"
+rank    : 3
+camp_date_onMainPage 	: "August 14-18th (9:00am-3:00pm)"
+camp_date_onCampPage 	: "August 14-18th (9:00am-3:00pm)"
+camp_time	: "6 hours each day"
 url_alt : 
 url_alt_flag : false
 permalink   : /camps/JMC-Apprentice/
 categories  : [2017, summer]
-tags	    : [camp, afternoon, minecraft, 8-14]
+tags	    : [camp, afternoon, minecraft, 8-15]
 age_group 	: 8 - 15 years old
 location	: Taman Zaaba, TTDI
 image		: /camps/images/jmc/JMC-Apprentice.png
@@ -22,7 +22,7 @@ registration_text : ["Register Now"]
 keep_me_informed_url	: "/#contact"
 show_onMainPage : true
 main_page_buttons : <a href="/camps/JMC-Apprentice" class="btn btn-lg pad-c btn-primary-pale">5-day Camp</a>
-excerpt		: ???
+excerpt		: Apprentice camp is for our alumni who have attended previous Minecraft Java Camps. The full 5 days program is a chance to, build, and develop new skills. <br/>Learn how to host your own server, install and manage Minecraft mods, and accelerate your Minecraft game creation skills.
 ---
 
 <div class="row">
@@ -63,7 +63,7 @@ excerpt		: ???
     <tr>
 		<th>Price</th>
         <td/>
-		<td style='padding:5px 10px 5px 5px'>RM 1799 <font color="red">(Early bird price: RM1299)</font></td>
+		<td style='padding:5px 10px 5px 5px'>RM 1,799 <font color="red">(Early bird price: RM1,299)</font></td>
 	</tr>
 </table>
 
@@ -87,7 +87,7 @@ excerpt		: ???
 <b>Theoretical / Conceptual:</b>
 <ul>
     <li> Students will learn to use Java variables, functions, and control structures. </li>
-    <li> Understand the design fundamentals of 3D game programming</li>
+    <li> Understand the process of game making</li>
 </ul>
 <b>Technical or Software skills:</b>
 <ul>
@@ -134,6 +134,8 @@ excerpt		: ???
         <p style="text-align: right;">Amanda, 10 years old</p>
     </div>
 </div>  
+        <br/>
+        <img style="margin: 15px;" class="pad img-responsive" src='/camps/images/jmc/mini_exp_vertical.png'/>
     </div> 
 </div>
 

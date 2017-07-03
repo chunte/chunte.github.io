@@ -3,8 +3,8 @@ layout 	: camp
 title 	: "Java Minecraft Junior"
 date 	: 2017-07-01 09:00:00
 rank    : 1
-camp_date_onMainPage 	: "August 7-11th (Morning)"
-camp_date_onCampPage 	: "August 7-11th (Morning)"
+camp_date_onMainPage 	: "August 7-11th (9:00am-12:30pm)"
+camp_date_onCampPage 	: "August 7-11th (9:00am-12:30pm)"
 camp_time	: "2.5 hours each day"
 url_alt : 
 url_alt_flag : false
@@ -22,7 +22,7 @@ registration_text : ["Register Now"]
 keep_me_informed_url	: "/#contact"
 show_onMainPage : true
 main_page_buttons : <a href="/camps/JMC-Junior" class="btn btn-lg pad-c btn-primary-pale">5-day Camp</a>
-excerpt		: ???
+excerpt		: Why is it fun to learn Java? Because Minecraft was made with Java. <br/>Get introduced to code behind Minecraft to explore the basic of Java programming in a fun and interactive way. Start the curiousity and excitement of coding!
 ---
 
 <div class="row">
@@ -68,11 +68,13 @@ excerpt		: ???
 </table>
 
 <h2>What is this camp about?</h2>
-
-
-<p> Minecraft, a video game about building blocks, is one of the best selling video games of all time and the ultimate platform to showcase your creativity. </p>
+    
+<p>Minecraft, a video game about building blocks, is one of the best selling video games of all time and the ultimate platform to showcase your creativity. </p>
 <p>In learning Java programming and technical concepts behind video game modding, this course will empower students with the ability to go into the code and modify video games. That is just the tip of the iceberg of what we can achieve!</p>
 <p>Android smart phones, company infrastructures—not to mention Minecraft—all begin with a variable coded in Java. </p>
+
+<img style="margin: auto;" class="pad img-responsive" src='/camps/images/jmc/jmc_code_example.gif'/>
+
 
 <h3>Session breakdown</h3>
 <ul>
@@ -88,7 +90,7 @@ excerpt		: ???
 <b>Theoretical / Conceptual:</b>
 <ul>
     <li> Students will learn to use Java variables, functions, and control structures. </li>
-    <li> Understand the design fundamentals of 3D game programming</li>
+    <li> Understand the process of game making</li>
 </ul>
 <b>Technical or Software skills:</b>
 <ul>
@@ -136,6 +138,8 @@ excerpt		: ???
         <p style="text-align: right;">Amanda, 10 years old</p>
     </div>
 </div>  
+        <br/>
+        <img style="margin: 15px;" class="pad img-responsive" src='/camps/images/jmc/mini_exp_vertical.png'/>
     </div> 
 </div>
 
