@@ -15,10 +15,10 @@ age_group 	: 8 - 10 years old
 location	: Taman Zaaba, TTDI
 image		: /camps/images/jmc/JMC-Junior.png
 banner		: /camps/images/jmc/JMC-Junior-banner.png
-registration_urls		: ["???"]
-registration_dates		: ["August 7-11th, 2017"]
-registration_statuses	: [true]
-registration_text : ["Register Now"]
+registration_urls		: ["https://www.eventbrite.com/e/java-minecraft-junior-aug-2017-tickets-35910409000", "tel:+60193354507"]
+registration_dates		: ["August 7-11th, 2017", "+6019-3354507"]
+registration_statuses	: [true, true]
+registration_text : ["Register Online", "or Call Dr. Ewe"]
 keep_me_informed_url	: "/#contact"
 show_onMainPage : true
 main_page_buttons : <a href="/camps/JMC-Junior" class="btn btn-lg pad-c btn-primary-pale">5-day Camp</a>

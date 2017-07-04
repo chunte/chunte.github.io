@@ -15,10 +15,10 @@ age_group 	: 11 - 15 years old
 location	: Taman Zaaba, TTDI
 image		: /camps/images/jmc/JMC-Senior.png
 banner		: /camps/images/jmc/JMC-Senior-banner.png
-registration_urls		: ["???"]
-registration_dates		: ["August 7-11th, 2017"]
-registration_statuses	: [true]
-registration_text : ["Register Now"]
+registration_urls		: ["https://www.eventbrite.com/e/java-minecraft-senior-aug-2017-tickets-35910881413", "tel:+60193354507"]
+registration_dates		: ["August 7-11th, 2017", "+6019-3354507"]
+registration_statuses	: [true, true]
+registration_text : ["Register Online", "or Call Dr. Ewe"]
 keep_me_informed_url	: "/#contact"
 show_onMainPage : true
 main_page_buttons : <a href="/camps/JMC-Senior" class="btn btn-lg pad-c btn-primary-pale">5-day Camp</a>

@@ -16,13 +16,13 @@ location	: Taman Zaaba, TTDI
 image		: /camps/images/jmc/JMC-miniexp.png
 banner		: /camps/images/jmc/JMC-miniexp-banner.png
 registration_urls		: ["???"]
-registration_dates		: ["July 16th, 2017"]
+registration_dates		: ["July 16th, 2017", "+6019-3354507"]
 registration_statuses	: [true]
-registration_text : ["Register Now"]
+registration_text : ["Register Now", "Call Dr. Ewe"]
 keep_me_informed_url	: "/#contact"
 show_onMainPage : true
-
-excerpt		: Want to learn what is Java ? Not sure this is the right camp for you? <br/>Come join us for the Mini Experience for parents & students! Learn more about the course content, hear from the Dr Ewe, and discover what goes on at our camps! <br/> Contact Dr Ewe, (+6019-3354507) for an arrangement
+main_page_buttons : <a href="tel:+60193354507" class="btn btn-lg pad-c btn-primary-pale">Call Dr Ewe<br/>+6019-3354507</a>
+excerpt		: Want to learn what is Java ? Not sure this is the right camp for you? <br/>Come join us for the Mini Experience for parents & students! Learn more about the course content, hear from the Dr Ewe, and discover what goes on at our camps! <br/> <br/> <b>Contact Dr Ewe (+6019-3354507) </b> to make arrangements.
 ---
 
 <div class="row">
